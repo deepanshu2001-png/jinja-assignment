@@ -1,0 +1,49 @@
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(
+        0deg,
+         rgba(0,0,0,1) 0%,
+          rgba(116,71,179,1) 0%);
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size:90px;
+    margin-top:100px;
+    margin-bottom:30px;
+}
+
+.end-suffix{
+    position: relative;
+    bottom: 1ex; 
+    font-size: 80%;
+  }
+ 
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 5%;
+    color: white;
+}
+
+.pic-center {
+    justify-content: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    width: 400px;
+}
+
+.URL-link {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-left: auto;
+    color: white;
+    
+}
