@@ -28,14 +28,14 @@ def todayDate():
         "suffix": end_suffix(),
         "image": image(),
     }
-@app.route("/")
+@app.route("/jinjatemplate")
 def home():
     todayDate1=todayDate()
     return render_template('index.html', Heading_h1 = 'Sample Page', todayDate1=todayDate1)
 
 @app.route('/image')
 def getRandom():
-    return redirect('/')
+    return redirect('/jinjatemplate')
 
 app.run(debug=True)
 
